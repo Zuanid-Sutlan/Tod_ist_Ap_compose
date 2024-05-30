@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tod ist Ap</string>
+    <string name="menu">Menu</string>
+    <string name="input_hint">Create new todo +</string>
+</resources>
