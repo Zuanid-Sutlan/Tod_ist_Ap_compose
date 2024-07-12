@@ -1,4 +1,4 @@
-package com.devstudio.todistap.ui.theme
+package com.devStudio.todistap.ui.theme
 
 import android.app.Activity
 import android.os.Build

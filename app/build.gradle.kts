@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "com.devstudio.todistap"
+    namespace = "com.devStudio.todistap"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.devstudio.todistap"
+        applicationId = "com.devStudio.todistap"
         minSdk = 23
         targetSdk = 34
         versionCode = 3
@@ -25,7 +25,7 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -91,6 +91,9 @@ dependencies {
 
     // to store data in preference
     implementation("androidx.datastore:datastore-preferences:1.0.0")
+
+    // Other dependencies
+    implementation ("com.android.tools.build:aapt2:8.3.2-10880808")
 
     // admob ads
     implementation("com.google.android.gms:play-services-ads:23.1.0")

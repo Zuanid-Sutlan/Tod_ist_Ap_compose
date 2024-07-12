@@ -1,4 +1,4 @@
-package com.devstudio.todistap.data.model.enums
+package com.devStudio.todistap.data.model.enums
 
 enum class TodoStatus {
     Done,

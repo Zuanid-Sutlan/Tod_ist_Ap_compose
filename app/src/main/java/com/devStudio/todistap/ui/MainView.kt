@@ -1,4 +1,4 @@
-package com.devstudio.todistap.ui
+package com.devStudio.todistap.ui
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.background
@@ -62,15 +62,15 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.unit.times
 import androidx.compose.ui.viewinterop.AndroidView
-import com.devstudio.todistap.MainActivity
-import com.devstudio.todistap.R
-import com.devstudio.todistap.ShowInterstitialAd
-import com.devstudio.todistap.data.model.Todo
-import com.devstudio.todistap.data.model.enums.TodoStatus
-import com.devstudio.todistap.data.viewModel.MainViewModel
-import com.devstudio.todistap.ui.theme.accentD
-import com.devstudio.todistap.ui.theme.poppins
-import com.devstudio.todistap.ui.theme.primaryD
+import com.devStudio.todistap.MainActivity
+import com.devStudio.todistap.R
+import com.devStudio.todistap.ShowInterstitialAd
+import com.devStudio.todistap.data.model.Todo
+import com.devStudio.todistap.data.model.enums.TodoStatus
+import com.devStudio.todistap.data.viewModel.MainViewModel
+import com.devStudio.todistap.ui.theme.accentD
+import com.devStudio.todistap.ui.theme.poppins
+import com.devStudio.todistap.ui.theme.primaryD
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdSize
 import com.google.android.gms.ads.AdView
@@ -184,7 +184,7 @@ fun MainView() {
                     items(getAllData.value) { item ->
 
 
-                        val dismissState = rememberDismissState(confirmStateChange = {
+                        val dismissState = rememberDismissState(confirmStateChange = { it ->
                             if (it == DismissValue.DismissedToStart || it == DismissValue.DismissedToEnd) {
                                 scope.launch {
                                     viewModel.delete(item)
@@ -197,7 +197,8 @@ fun MainView() {
                             state = dismissState,
                             background = {
                                 val color = animateColorAsState(
-                                    Color.Red,
+                                    if (dismissState.dismissDirection == DismissDirection.StartToEnd) Color.Red else Color.Red,
+//                                    Color.Red,
                                     label = ""
                                 )
                                 val alignment =

@@ -1,13 +1,13 @@
-package com.devstudio.todistap.data.viewModel
+package com.devStudio.todistap.data.viewModel
 
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.devstudio.todistap.Utils.Prefs
-import com.devstudio.todistap.data.database.DatabaseGraph
-import com.devstudio.todistap.data.model.Todo
-import com.devstudio.todistap.data.repository.TodoRepository
+import com.devStudio.todistap.Utils.Prefs
+import com.devStudio.todistap.data.database.DatabaseGraph
+import com.devStudio.todistap.data.model.Todo
+import com.devStudio.todistap.data.repository.TodoRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.launch
 

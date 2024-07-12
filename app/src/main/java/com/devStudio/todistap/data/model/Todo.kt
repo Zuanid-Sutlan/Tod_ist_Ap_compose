@@ -1,9 +1,9 @@
-package com.devstudio.todistap.data.model
+package com.devStudio.todistap.data.model
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.devstudio.todistap.data.model.enums.TodoStatus
+import com.devStudio.todistap.data.model.enums.TodoStatus
 
 @Entity(tableName = "todo-table")
 data class Todo(

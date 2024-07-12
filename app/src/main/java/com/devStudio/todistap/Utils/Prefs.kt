@@ -1,7 +1,7 @@
-package com.devstudio.todistap.Utils
+package com.devStudio.todistap.Utils
 
 import android.preference.PreferenceManager
-import com.devstudio.todistap.ApplicationClass
+import com.devStudio.todistap.ApplicationClass
 
 
 object Prefs {

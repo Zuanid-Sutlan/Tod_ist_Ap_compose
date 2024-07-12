@@ -1,8 +1,8 @@
-package com.devstudio.todistap
+package com.devStudio.todistap
 
 import android.app.Application
 import android.content.Context
-import com.devstudio.todistap.data.database.DatabaseGraph
+import com.devStudio.todistap.data.database.DatabaseGraph
 import com.google.android.gms.ads.MobileAds
 
 class ApplicationClass : Application() {

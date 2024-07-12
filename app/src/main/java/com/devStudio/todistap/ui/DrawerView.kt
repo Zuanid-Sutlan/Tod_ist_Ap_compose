@@ -1,4 +1,4 @@
-package com.devstudio.todistap.ui
+package com.devStudio.todistap.ui
 
 import android.content.Intent
 import android.net.Uri
@@ -34,9 +34,9 @@ import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.devstudio.todistap.MainActivity
-import com.devstudio.todistap.R
-import com.devstudio.todistap.Utils.Prefs
+import com.devStudio.todistap.MainActivity
+import com.devStudio.todistap.R
+import com.devStudio.todistap.Utils.Prefs
 import androidx.compose.ui.platform.LocalContext
 
 

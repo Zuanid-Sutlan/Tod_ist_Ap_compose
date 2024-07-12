@@ -1,4 +1,4 @@
-package com.devstudio.todistap
+package com.devStudio.todistap
 
 import android.app.Activity
 import android.os.Bundle
@@ -12,9 +12,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.devstudio.todistap.data.viewModel.MainViewModel
-import com.devstudio.todistap.ui.MainView
-import com.devstudio.todistap.ui.theme.TodIstApTheme
+import com.devStudio.todistap.data.viewModel.MainViewModel
+import com.devStudio.todistap.ui.MainView
+import com.devStudio.todistap.ui.theme.TodIstApTheme
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.LoadAdError
 import com.google.android.gms.ads.interstitial.InterstitialAd

@@ -1,4 +1,4 @@
-package com.devstudio.todistap.data.database
+package com.devStudio.todistap.data.database
 
 import androidx.room.Dao
 import androidx.room.Delete
@@ -6,7 +6,7 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.Update
-import com.devstudio.todistap.data.model.Todo
+import com.devStudio.todistap.data.model.Todo
 import kotlinx.coroutines.flow.Flow
 
 @Dao

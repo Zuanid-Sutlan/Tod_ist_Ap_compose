@@ -1,8 +1,8 @@
-package com.devstudio.todistap.data.database
+package com.devStudio.todistap.data.database
 
 import android.content.Context
 import androidx.room.Room
-import com.devstudio.todistap.data.repository.TodoRepository
+import com.devStudio.todistap.data.repository.TodoRepository
 
 object DatabaseGraph {
 

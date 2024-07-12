@@ -1,4 +1,4 @@
-package com.devstudio.todistap
+package com.devStudio.todistap
 
 import org.junit.Test
 

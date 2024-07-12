@@ -1,7 +1,7 @@
-package com.devstudio.todistap.data.repository
+package com.devStudio.todistap.data.repository
 
-import com.devstudio.todistap.data.database.TodoDAO
-import com.devstudio.todistap.data.model.Todo
+import com.devStudio.todistap.data.database.TodoDAO
+import com.devStudio.todistap.data.model.Todo
 import kotlinx.coroutines.flow.Flow
 
 class TodoRepository(private val todoDAO: TodoDAO) {
